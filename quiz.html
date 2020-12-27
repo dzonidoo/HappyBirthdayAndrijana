@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="quiz.css">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script defer src="quiz.js"></script>
+
+    <script src="https://kit.fontawesome.com/84f825f321.js" crossorigin="anonymous"></script>
+
+
+    <title>Quiz</title>
+</head>
+
+<body class="quizbody">
+    <div class="containerquiz">
+        <div class="gif">
+            <img src="1571548_519c3.gif" alt=""></img>
+        </div>
+        <div class="hide" id="question-container">
+            <a href="index.html" class="back">vrati se</a>
+            <div id="question">Question</div>
+            <div id="answer-buttons" class="btn-grid">
+                <div class="button-block">
+                    <button class="btn correct">Answer 1</button>
+                </div>
+                <div class="button-block">
+                    <button class="btn wrong">Answer 2</button>
+                </div>
+            </div>
+        </div>
+        <div class="controls">
+            <button id="start-btn" class="start-btn btn">start</button>
+            <button id="next-btn" class="next-btn btn hide"><span class="fas fa-play"></span></button>
+        </div>
+    </div>
+</body>
+
+</html>

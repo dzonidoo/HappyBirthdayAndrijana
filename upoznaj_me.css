@@ -1,0 +1,62 @@
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("bg1.jpg");
+    width: 100%;
+    height: 100%;
+    background-size: 100vw 100%;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+  }
+  .interview {
+    background-color: rgba(1, 1, 1, 0.1);
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .interview__person,
+  .interview__andriana {
+    padding: 5px 0;
+    width: 100%;
+  }
+  .interview__person p,
+  .interview__andriana p {
+    margin: 0;
+    text-align: justify;
+    letter-spacing: 1px;
+  }
+  .interview__person p span,
+  .interview__andriana p span {
+    color: #9813b9;
+    padding: 0 10px 0 0;
+    font-family: 'Parisienne', cursive;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .interview__question {
+    width: 100%;
+    padding: 20px 0;
+    color: #3b0036;
+    font-size: 18px;
+    font-family: 'Langar', cursive;
+  }
+  .back {
+    display: block;
+    border: 1px solid white;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 20px;
+  }
+}
+/*# sourceMappingURL=upoznaj_me.css.map */

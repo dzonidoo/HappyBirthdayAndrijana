@@ -1,0 +1,139 @@
+.quizbody {
+    --hue: var(--hue-neutral);
+    padding: 0;
+    margin: 0;
+    font-family: fantasy;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(var(--hue), 100%, 40%);
+    width: 100%;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+:root {
+    --hue-neutral: 310;
+    --hue-wrong: 0;
+    --hue-correct: 145;
+}
+
+body.correct {
+    --hue: var(--hue-correct);
+}
+
+body.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.containerquiz {
+    width: 100%;
+    border-radius: 5px;
+    padding: 120px 10px;
+    height: 100%;
+}
+
+.btn-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.button-block {
+    padding: 0 100px;
+}
+
+.btn {
+    --hue: var(--hue-neutral);
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 25px;
+    width: 100px;
+    height: 80px;
+}
+
+.btn.correct {
+    --hue: var(--hue-correct);
+}
+
+.btn.wrong {
+    --hue: var(--hue-wrong);
+}
+
+.start-btn {
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    font-size: 25px;
+    background-color: transparent;
+    border: 1px solid white;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.hide {
+    display: none;
+}
+
+.back {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+    letter-spacing: 0;
+}
+
+#question {
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.next-btn {
+    border: none !important;
+}
+
+span {
+    background-color: transparent;
+    color: white;
+    font-size: 60px !important;
+}
+
+img {
+    width: 80%;
+    height: auto;
+}
+
+.gif {
+    display: flex;
+    justify-content: center;
+}

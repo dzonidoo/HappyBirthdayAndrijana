@@ -80,24 +80,73 @@ function clearStatusClass(element) {
 
 
 const questions = [{
-        question: 'omiljena hrana tvog decka?',
+        question: 'Da li ste dobili ruzu na prvom sastanku?',
         answers: [
-            { text: 'pizza', correct: true },
-            { text: 'kupus', correct: false }
+            { text: 'NE', correct: true },
+            { text: 'DA', correct: false }
         ]
     },
     {
-        question: 'omiljena boja tvog decka?',
+        question: 'Omiljena hrana tvog decka?',
         answers: [
-            { text: 'crvena', correct: true },
-            { text: 'zuta', correct: false }
+            { text: 'PIZZA', correct: true },
+            { text: 'PILETINA', correct: false }
         ]
     },
     {
-        question: 'omiljena kola tvog decka?',
+        question: 'Koju rec najvise mrzi?',
         answers: [
-            { text: 'audi', correct: false },
-            { text: 'bmw', correct: true }
+            { text: 'IGRANJE', correct: false },
+            { text: 'MAZENJE', correct: true }
+        ]
+    },
+    {
+        question: 'Sta radimo dok se vozimo?',
+        answers: [
+            { text: 'DRZIMO SE ZA RUKE', correct: true },
+            { text: 'DIRAMO KOSU', correct: false }
+        ]
+    },
+    {
+        question: 'Voli da svrsi?',
+        answers: [
+            { text: 'NA SISE', correct: false },
+            { text: 'NA FACU', correct: true }
+        ]
+    },
+    {
+        question: 'Jedno od navedenih imena mu se svidja?',
+        answers: [
+            { text: 'TARA', correct: true },
+            { text: 'NASTASIJA', correct: false }
+        ]
+    },
+    {
+        question: 'Staje pomislio kad te je video?',
+        answers: [
+            { text: 'U KAKVO DUPE', correct: false },
+            { text: 'U KAKO JE LEPA', correct: true }
+        ]
+    },
+    {
+        question: 'Sta je spreman da prepolovi?',
+        answers: [
+            { text: 'ZEMLJU', correct: false },
+            { text: 'NEBO', correct: true }
+        ]
+    },
+    {
+        question: 'Kada si raskinula?',
+        answers: [
+            { text: '23.', correct: true },
+            { text: '25.', correct: false }
+        ]
+    },
+    {
+        question: 'Na sta se lozi?',
+        answers: [
+            { text: 'SISE', correct: false },
+            { text: 'DUPE', correct: true }
         ]
     },
 ]

@@ -39,7 +39,7 @@ body.wrong {
 .containerquiz {
   width: 100%;
   border-radius: 5px;
-  padding: 80px 10px;
+  padding: 40px 10px;
   height: 100%;
 }
 
@@ -79,9 +79,14 @@ body.wrong {
   padding: 10px;
   margin-left: 20px;
   margin-right: 20px;
-  font-size: 25px;
-  width: 100px;
-  height: 80px;
+  font-size: 20px;
+  width: 130px;
+  height: 100px;
+  font-family: 'Emilys Candy', cursive;
+}
+
+.btn:hover {
+  color: white;
 }
 
 .btn.correct {
@@ -101,6 +106,7 @@ body.wrong {
   font-size: 25px;
   background-color: transparent;
   border: 1px solid white;
+  font-family: 'Emilys Candy', cursive;
 }
 
 .controls {
@@ -131,7 +137,11 @@ body.wrong {
   border-radius: 5px;
   padding: 15px 15px;
   letter-spacing: 0;
-  font-family: Arial, sans-serif;
+  font-family: 'Emilys Candy', cursive;
+}
+
+.back:hover {
+  color: white;
 }
 
 #question {
@@ -146,6 +156,9 @@ body.wrong {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px 0;
+  font-family: 'Emilys Candy', cursive;
+  text-align: center;
+  font-size: 25px;
 }
 
 .next-btn {

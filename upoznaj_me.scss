@@ -50,5 +50,8 @@
         padding: 15px 15px;
         font-size: 18px;
         font-family: 'Emilys Candy', cursive;
+        &:hover {
+            color: white;
+        }
     }
 }

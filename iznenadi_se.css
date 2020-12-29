@@ -1,61 +1,72 @@
+html {
+  overflow: hidden;
+}
+
 body {
-    padding: 40px 10px;
-    background-image: url("cestitka2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  background-image: url("cestitka2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 div {
-    -webkit-transform: rotatez(-12deg);
-    transform: rotatez(-12deg);
-    width: 100vw;
-    height: 100vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    overflow: hidden;
+  -webkit-transform: rotatez(-12deg);
+          transform: rotatez(-12deg);
+  overflow: hidden !important;
+  max-width: 100%;
 }
 
 p {
-    margin: 0;
-    font-family: 'Niconne', cursive;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #7c1010;
-    padding: 0 40px;
-    width: 80%;
-    overflow: hidden;
+  margin: 0;
+  font-family: 'Niconne', cursive;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #7c1010;
+  padding: 0 40px;
+  width: 80%;
+  overflow: hidden !important;
 }
 
 .six {
-    color: #c94aad;
-    font-size: 25px;
+  color: #c94aad;
+  font-size: 25px;
 }
 
 .back {
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    border: 1px solid white;
-    display: block;
-    padding: 15px 15px;
-    color: white;
-    font-size: 18px;
-    border-radius: 5px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  border: 1px solid white;
+  display: block;
+  padding: 15px 15px;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  text-decoration: none;
 }
 
-
+@media screen and (max-width: 600px) {
+  body {
+    overflow: hidden !important;
+  }
+  div {
+    overflow: hidden !important;
+  }
+  p {
+    overflow: hidden !important;
+  }
+}
 /*# sourceMappingURL=iznenadi_se.css.map */

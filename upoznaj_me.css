@@ -60,5 +60,8 @@
     font-size: 18px;
     font-family: 'Emilys Candy', cursive;
   }
+  .back:hover {
+    color: white;
+  }
 }
 /*# sourceMappingURL=upoznaj_me.css.map */

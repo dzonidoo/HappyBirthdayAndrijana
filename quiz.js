@@ -82,57 +82,57 @@ function clearStatusClass(element) {
 const questions = [{
         question: 'Da li ste dobili ruzu na prvom sastanku?',
         answers: [
-            { text: 'NE', correct: true },
-            { text: 'DA', correct: false }
+            { text: 'Ne', correct: true },
+            { text: 'Da', correct: false }
         ]
     },
     {
         question: 'Omiljena hrana tvog decka?',
         answers: [
-            { text: 'PIZZA', correct: true },
-            { text: 'PILETINA', correct: false }
+            { text: 'Pizza', correct: true },
+            { text: 'Piletina', correct: false }
         ]
     },
     {
         question: 'Koju rec najvise mrzi?',
         answers: [
-            { text: 'IGRANJE', correct: false },
-            { text: 'MAZENJE', correct: true }
+            { text: 'Igranje', correct: false },
+            { text: 'Mazenje', correct: true }
         ]
     },
     {
         question: 'Sta radimo dok se vozimo?',
         answers: [
-            { text: 'DRZIMO SE ZA RUKE', correct: true },
-            { text: 'DIRAMO KOSU', correct: false }
+            { text: 'Drzimo se za ruke', correct: true },
+            { text: 'Diramo kosu', correct: false }
         ]
     },
     {
         question: 'Voli da svrsi?',
         answers: [
-            { text: 'NA SISE', correct: false },
-            { text: 'NA FACU', correct: true }
+            { text: 'Na sise', correct: false },
+            { text: 'Na facu', correct: true }
         ]
     },
     {
         question: 'Jedno od navedenih imena mu se svidja?',
         answers: [
-            { text: 'TARA', correct: true },
-            { text: 'NASTASIJA', correct: false }
+            { text: 'Tara', correct: true },
+            { text: 'Nastasija', correct: false }
         ]
     },
     {
         question: 'Staje pomislio kad te je video?',
         answers: [
-            { text: 'U KAKVO DUPE', correct: false },
-            { text: 'U KAKO JE LEPA', correct: true }
+            { text: 'U kakvo dupe', correct: false },
+            { text: 'U kako je lepa', correct: true }
         ]
     },
     {
         question: 'Sta je spreman da prepolovi?',
         answers: [
-            { text: 'ZEMLJU', correct: false },
-            { text: 'NEBO', correct: true }
+            { text: 'Zemlju', correct: false },
+            { text: 'Nebo', correct: true }
         ]
     },
     {
@@ -145,8 +145,8 @@ const questions = [{
     {
         question: 'Na sta se lozi?',
         answers: [
-            { text: 'SISE', correct: false },
-            { text: 'DUPE', correct: true }
+            { text: 'Sise', correct: false },
+            { text: 'Dupe', correct: true }
         ]
     },
 ]

@@ -16,6 +16,7 @@ div {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    overflow: hidden;
 }
 
 p {
@@ -23,14 +24,15 @@ p {
     font-family: 'Niconne', cursive;
     font-size: 15px;
     letter-spacing: 2px;
-    color: rgb(114, 0, 0);
+    color: rgb(124, 16, 16);
     padding: 0 40px;
     width: 80%;
+    overflow: hidden;
 }
 
 .six {
     color: rgb(201, 74, 173);
-    font-size: 35px;
+    font-size: 25px;
 }
 
 .back {

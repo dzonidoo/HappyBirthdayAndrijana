@@ -1,0 +1,39 @@
+body {
+    padding: 40px 10px;
+    background-image: url('cestitka2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+div {
+    padding: 0px 10px 0 30px;
+    margin-top: 10%;
+    transform: rotatez(-12deg);
+    margin-left: 35px;
+}
+
+p {
+    margin: 0;
+    font-family: 'Niconne', cursive;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: rgb(66, 0, 0);
+}
+
+.six {
+    color: rgb(201, 74, 173);
+    font-size: 35px;
+}
+
+.back {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border: 1px solid white;
+    display: block;
+    padding: 15px 15px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+}

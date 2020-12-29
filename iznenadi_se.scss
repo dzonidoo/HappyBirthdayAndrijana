@@ -3,22 +3,29 @@ body {
     background-image: url('cestitka2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 
 div {
-    padding: 0px 10px 0 30px;
-    margin-top: 10%;
     transform: rotatez(-12deg);
-    margin-left: 35px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 p {
     margin: 0;
     font-family: 'Niconne', cursive;
-    font-size: 22px;
+    font-size: 15px;
     letter-spacing: 2px;
-    color: rgb(66, 0, 0);
+    color: rgb(114, 0, 0);
+    padding: 0 40px;
+    width: 80%;
 }
 
 .six {

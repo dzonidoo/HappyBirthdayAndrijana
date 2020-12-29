@@ -3,23 +3,39 @@ body {
   background-image: url("cestitka2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
 }
 
 div {
-  padding: 0px 10px 0 30px;
-  margin-top: 10%;
   -webkit-transform: rotatez(-12deg);
           transform: rotatez(-12deg);
-  margin-left: 35px;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 p {
   margin: 0;
   font-family: 'Niconne', cursive;
-  font-size: 22px;
+  font-size: 15px;
   letter-spacing: 2px;
-  color: #420000;
+  color: #720000;
+  padding: 0 40px;
+  width: 80%;
 }
 
 .six {

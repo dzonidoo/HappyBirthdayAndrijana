@@ -101,10 +101,10 @@ const questions = [{
         ]
     },
     {
-        question: 'Sta radimo dok se vozimo?',
+        question: 'Dok se vozimo drzimo se za?',
         answers: [
-            { text: 'Drzimo se za ruke', correct: true },
-            { text: 'Diramo kosu', correct: false }
+            { text: 'Ruke', correct: true },
+            { text: 'Kolena', correct: false }
         ]
     },
     {
@@ -129,21 +129,21 @@ const questions = [{
         ]
     },
     {
-        question: 'Sta je spreman da prepolovi?',
+        question: 'Cija se muzika slusa u kolima?',
         answers: [
-            { text: 'Zemlju', correct: false },
-            { text: 'Nebo', correct: true }
+            { text: 'Nikolina', correct: false },
+            { text: 'Andrijanina', correct: true }
         ]
     },
     {
         question: 'Kada si raskinula?',
         answers: [
             { text: '23.', correct: true },
-            { text: '25.', correct: false }
+            { text: '21.', correct: false }
         ]
     },
     {
-        question: 'Na sta se lozi?',
+        question: 'Sta je bitnije da devojka ima?',
         answers: [
             { text: 'Sise', correct: false },
             { text: 'Dupe', correct: true }
